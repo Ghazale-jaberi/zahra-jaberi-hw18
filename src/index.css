@@ -1,13 +1,181 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+body{border-radius: 30px;
+  background: #252525;}
+
+
+  .text{
+    color: #FFF;
+font-family: Nunito;
+font-size: 43px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+  .btn1{
+    width: 40px;
+height: 40px;
+margin-top: 2px;
+border-radius: 15px;
+background: #3B3B3B;
+margin-left: 12px;
+  }
+
+  .btn2{
+
+width: 40px;
+height: 40px;
+border-radius: 15px;
+background: #3B3B3B;
+
+  }
+.img{
+margin-top: -700px;
+}
+  .img img{
+    width: 240px;
+height: 200px;
+flex-shrink: 0;
+    margin: 0px auto ;
+  }
+
+  p{
+    color: #FFF;
+  
+    text-align: center;
+    margin-top: -65px;
+  }
+
+  .btn3{
+
+    margin-top: 100px;
+    border-radius: 50%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  .btn3 button {
+border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+color: #FFF;
+    background: #3B464C;
+  }
+
+  .part2 button{
+    width: 48px;
+height: 48px;
+
+flex-shrink: 0;
+color: #FFF;
+background: #3B464C;
+border-radius: 50%;
+  }
+  
+  .btn4 , .btn5 {
+    width: 48px;
+height: 48px;
+flex-shrink: 0;
+border: 1px solid #3B464C;
+    border-radius: 50%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+ 
+  }
+  .part2 img{
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .title{
+    color: #9A9A9A;
+font-family: Nunito;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+  }
+
+  .paragraph{
+    color: #9A9A9A;
+font-family: Nunito;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+  }
+ul{
+  display: flex;
+  justify-content: center;
+ 
+  margin: 0 auto;
+}
+  li{
+    width: 300px;
+height: 100px;
+flex-shrink: 0;
+
+  }
+
+  p{
+    margin-top: 10px;
+  }
+
+  input{
+    width: 360px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #3B3B3B;
+    margin: 20px auto;
+  }
+  ::placeholder{
+    color: #CCC;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-right: 20px;
+  }
+
+  .modal {
+    position: fixed;
+    top: 100px;
+    left: 30%;
+ 
+    width: 35%;
+    height: 35%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .list{
+    margin-top: -700px;
+  }
+
+  .inputs{
+    width: 300px;
+    height: 50px;
+  }
+
+  input[type="text"]
+{
+    font-size:20px;
+    margin-left: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+  text-align: center;
 }
